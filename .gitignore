@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OpenCode
+.opencode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log

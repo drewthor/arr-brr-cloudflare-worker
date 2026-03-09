@@ -1,0 +1,30 @@
+name = "arr-brr-cloudflare-worker"
+main = "src/index.ts"
+compatibility_date = "2025-03-03"
+
+[vars]
+# Sonarr event toggles (set to "false" to disable, redeploy to apply)
+SONARR_ON_GRAB = "false"
+SONARR_ON_DOWNLOAD = "false"
+SONARR_ON_UPGRADE = "false"
+SONARR_ON_RENAME = "false"
+SONARR_ON_SERIES_ADD = "true"
+SONARR_ON_SERIES_DELETE = "true"
+SONARR_ON_EPISODE_FILE_DELETE = "true"
+SONARR_ON_HEALTH = "true"
+SONARR_ON_HEALTH_RESTORED = "true"
+SONARR_ON_APPLICATION_UPDATE = "true"
+SONARR_ON_MANUAL_INTERACTION_REQUIRED = "true"
+
+# Radarr event toggles (set to "false" to disable, redeploy to apply)
+RADARR_ON_GRAB = "false"
+RADARR_ON_DOWNLOAD = "false"
+RADARR_ON_UPGRADE = "false"
+RADARR_ON_RENAME = "false"
+RADARR_ON_MOVIE_ADDED = "true"
+RADARR_ON_MOVIE_DELETE = "true"
+RADARR_ON_MOVIE_FILE_DELETE = "true"
+RADARR_ON_HEALTH = "true"
+RADARR_ON_HEALTH_RESTORED = "true"
+RADARR_ON_APPLICATION_UPDATE = "true"
+RADARR_ON_MANUAL_INTERACTION_REQUIRED = "true"
